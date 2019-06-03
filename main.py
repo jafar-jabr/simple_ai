@@ -11,7 +11,7 @@ train_features = np.array(raw_train_features)
 train_labels = np.array(raw_train_labels)
 
 scenario = {
-        "last_work_shift": 1,
+        "last_work_shift": 2,
         "yesterday_shift": 1,
         "preferred_shift_1": True,
         "preferred_shift_2": True,
@@ -33,4 +33,5 @@ clf = GaussianNB()
 clf.partial_fit(train_features, train_labels, np.unique(train_labels))
 GaussianNB(priors=None, var_smoothing=1e-09)
 predict = clf.predict(predict_set)
-print(predict)
+decision = "shift_"+str(predict[0])
+print(decision)

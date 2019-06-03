@@ -21,6 +21,12 @@ class PreparedData:
                 return 0
             elif val == "off":
                 return -1
+            elif val is bool:
+                if val:
+                    return 1
+                else:
+                    return 0
+            return 0
 
     @staticmethod
     def prepare_features(scenario):
@@ -35,6 +41,6 @@ class PreparedData:
         train_labels = []
         for row in data['data']:
             train_features.append(PreparedData.prepare_features(row['scenario']))
-            train_labels.append("shift_"+str(row['shift']))
+            train_labels.append(row['shift'])
         return {'features': train_features, 'labels': train_labels}
 
