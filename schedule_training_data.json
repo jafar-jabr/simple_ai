@@ -1,0 +1,104 @@
+{
+  "data": [
+    {
+      "scenario": {
+        "last_work_shift": 1,
+        "yesterday_shift": 1,
+        "preferred_shift_1": true,
+        "preferred_shift_2": true,
+        "what_we_need": 1
+      },
+      "shift": 1
+    },
+    {
+      "scenario": {
+        "last_work_shift": 1,
+        "yesterday_shift": 1,
+        "preferred_shift_1": false,
+        "preferred_shift_2": true,
+        "what_we_need": 1
+      },
+      "shift": 2
+    },
+    {
+      "scenario": {
+        "last_work_shift": 2,
+        "yesterday_shift": "off",
+        "preferred_shift_1": true,
+        "preferred_shift_2": true,
+        "what_we_need": 1
+      },
+      "shift": 1
+    },
+    {
+      "scenario": {
+        "last_work_shift": null,
+        "yesterday_shift": null,
+        "preferred_shift_1": true,
+        "preferred_shift_2": true,
+        "what_we_need": 1
+      },
+      "shift": 1
+    },
+    {
+      "scenario": {
+        "last_work_shift": 2,
+        "yesterday_shift": 2,
+        "preferred_shift_1": true,
+        "preferred_shift_2": true,
+        "what_we_need": 1
+      },
+      "shift": 2
+    },
+    {
+      "scenario": {
+        "last_work_shift": 2,
+        "yesterday_shift": 2,
+        "preferred_shift_1": true,
+        "preferred_shift_2": false,
+        "what_we_need": 1
+      },
+      "shift": 1
+    },
+    {
+      "scenario": {
+        "last_work_shift": 2,
+        "yesterday_shift": "off",
+        "preferred_shift_1": true,
+        "preferred_shift_2": true,
+        "what_we_need": 1
+      },
+      "shift": 1
+    },
+    {
+      "scenario": {
+        "last_work_shift": 2,
+        "yesterday_shift": "off",
+        "preferred_shift_1": true,
+        "preferred_shift_2": false,
+        "what_we_need": 1
+      },
+      "shift": 1
+    },
+    {
+      "scenario": {
+        "last_work_shift": 1,
+        "yesterday_shift": "off",
+        "preferred_shift_1": true,
+        "preferred_shift_2": true,
+        "what_we_need": 1
+      },
+      "shift": 2
+    },
+    {
+      "scenario": {
+        "last_work_shift": 1,
+        "yesterday_shift": "off",
+        "preferred_shift_1": true,
+        "preferred_shift_2": true,
+        "what_we_need": 1
+      },
+      "shift": 2
+    }
+  ]
+}
