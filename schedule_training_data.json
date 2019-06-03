@@ -1,15 +1,6 @@
 {
   "data": [
-    {
-      "scenario": {
-        "last_work_shift": 1,
-        "yesterday_shift": 1,
-        "preferred_shift_1": true,
-        "preferred_shift_2": true,
-        "what_we_need": 1
-      },
-      "shift": 1
-    },
+
     {
       "scenario": {
         "last_work_shift": 1,

@@ -11,10 +11,10 @@ train_features = np.array(raw_train_features)
 train_labels = np.array(raw_train_labels)
 
 scenario = {
-        "last_work_shift": 2,
+        "last_work_shift": 1,
         "yesterday_shift": 1,
         "preferred_shift_1": True,
-        "preferred_shift_2": True,
+        "preferred_shift_2": False,
         "what_we_need": 1
 }
 
